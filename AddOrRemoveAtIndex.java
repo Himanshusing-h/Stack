@@ -19,6 +19,7 @@ public class AddOrRemoveAtIndex {
         int ele=sc.nextInt();
         System.out.println("Enter index at which the number to be added");
         int ind=sc.nextInt();
+        //important line st1.size()>ind
         while(st1.size()>ind)
         {
             int temp=st1.pop();
